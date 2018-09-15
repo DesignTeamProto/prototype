@@ -14,49 +14,20 @@
 Route::auth();
 Auth::routes();
 
-// Homepage
-Route::get('/', ['uses' => 'UserController@index', 'as' => 'users']);
-Route::get('/home', ['uses' => 'UserController@index', 'as' => 'users']);
 
-// Download
-Route::get('/download', 'DownloadController@anchor');
 
-// Contact
-Route::get('/contact', 'ContactController@anchor');
+// HOMEPAGE
+Route::get('/', function () {
+    return view('pages.home');
+});
+Route::get('/homepage', function () {
+    return view('pages.home');
+});
+Route::get('/home', function () {
+    return view('pages.home');
+});
 
-// Highlights
-Route::get('/highlights', 'HighlightsController@anchor');
-
-// Roadmap
-Route::get('/roadmap', 'RoadmapController@anchor');
-
-// Auth
-Route::post('/auth/{uid}', 'FirebaseController@index');
-
-Route::post('/ajax/resetSession', 'AjaxController@resetSession');
-
-// Localization
-Route::get('/js/lang.js', function () {
-    $strings = Cache::rememberForever('lang.js', function () {
-        $lang = config('app.locale');
-
-        $files   = glob(resource_path('lang/' . $lang . '/*.php'));
-        $strings = [];
-
-        foreach ($files as $file) {
-            $name           = basename($file, '.php');
-            $strings[$name] = require $file;
-        }
-
-        return $strings;
-    });
-
-    header('Content-Type: text/javascript');
-    echo('window.i18n = ' . json_encode($strings) . ';');
-    exit();
-})->name('assets.lang');
-
-//USER ACCESS ONLY
-//Route::group(['middleware' => 'usersession'], function () {
-//	Route::get('/', 'UserController@loggedin');
-//});
+// DOWNLOAD
+Route::get('/download', function () {
+    return view('pages.download');
+});

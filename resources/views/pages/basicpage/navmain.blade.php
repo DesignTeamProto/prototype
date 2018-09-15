@@ -45,14 +45,6 @@
 				</a>
 				<meta itemprop="position" content="2">
 			</li>
-
-			<li class="level-1-item {{(current_page(Lang::get('menus.login'))) ? 'active' : current_page()}}" data-toggle='modal' data-target='#modal-login'>
-				<div href="{{ Lang::get('menus.login-url') }}" itemprop="url" class="hasimage">
-					<img src="{{ asset('img/user.svg') }}" alt=""/>
-					<span class="mobile-only" itemprop="name">{{ Lang::get('menus.login') }}</span>
-				</div>
-				<meta itemprop="position" content="2">
-			</li>
 		@endif
 	</ul>
 </nav>

@@ -15,7 +15,7 @@ class ContactController extends Controller
      */
     public function anchor()
     {
-        return Redirect::to(URL::previous() . "#contact");
+        //return Redirect::to(URL::previous() . "#contact");
     }
 
     /**
@@ -25,9 +25,8 @@ class ContactController extends Controller
      */
     public function index()
     {
-        //
+        return view('auth.contact');
     }
-
     /**
      * Show the form for creating a new resource.
      *

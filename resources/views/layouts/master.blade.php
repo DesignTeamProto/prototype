@@ -55,10 +55,6 @@
             @yield('page-scripts')
         @endif
 
-        @hasSection('firebase')
-            @yield('firebase')
-        @endif
-
         @hasSection('modal')
             @yield('modal')
         @endif

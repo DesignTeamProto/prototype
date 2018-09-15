@@ -1,0 +1,2 @@
+<!-- {{$debugpath}} -->
+@extends('layouts.master')

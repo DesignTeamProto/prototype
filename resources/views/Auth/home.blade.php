@@ -20,11 +20,6 @@
     @include('scripts.modal.modal-show-auth-init')
 @stop
 
-{{-- Include Firebase --}}
-@section('firebase')
-	@include('includes.firebase.init')
-@stop
-
 {{-- Include Modal --}}
 @section('modal')
 	@include('modals.layout', ['content' => "modals.auth.login",'modalsize' => '', 'modaltype' => 'transparent', 'modalid' => 'modal-login'])

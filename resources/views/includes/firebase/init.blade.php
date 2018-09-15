@@ -1,1 +1,0 @@
-<script type="text/javascript" src="{{ URL::asset('js/firebase/jquery.firebase.js') }}"></script>
