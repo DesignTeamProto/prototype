@@ -31,3 +31,8 @@ Route::get('/home', function () {
 Route::get('/download', function () {
     return view('pages.download');
 });
+
+// DOWNLOAD
+Route::get('/teams', function () {
+    return view('pages.download');
+});
