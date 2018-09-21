@@ -1,6 +1,6 @@
 <?php
 
-namespace Shaelyn\Providers;
+namespace DesignTeam\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

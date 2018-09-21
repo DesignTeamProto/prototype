@@ -1,6 +1,6 @@
 <?php
 
-namespace Shaelyn\Http\Controllers;
+namespace DesignTeam\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

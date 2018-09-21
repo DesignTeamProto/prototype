@@ -1,6 +1,6 @@
 <?php
 
-namespace Shaelyn\Exceptions;
+namespace DesignTeam\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

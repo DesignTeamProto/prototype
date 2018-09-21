@@ -1,6 +1,6 @@
 <?php
 
-namespace Shaelyn\Providers;
+namespace DesignTeam\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Shaelyn\Http\Controllers';
+    protected $namespace = 'DesignTeam\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Shaelyn\Http\Middleware;
+namespace DesignTeam\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TrimStrings as BaseTrimmer;
 

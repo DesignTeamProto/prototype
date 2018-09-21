@@ -1,8 +1,5 @@
 <!-- {{$debugpath}} -->
 
-<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-messaging.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
 <script type="text/javascript" src="{{ URL::asset('js/jquery.browser.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('js/jquery.viewport.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('js/jquery.header.js') }}"></script>
@@ -19,7 +16,6 @@
 <script type="text/javascript" src="{{ URL::asset('js/jquery.forms.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('js/jquery.parallax.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('js/bootstrap/modal.js') }}"></script>
-<script type="text/javascript" src="{{ URL::asset('js/HTML.creator.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('js/jquery.CustomScrollbar.js') }}"></script>
 
 <!-- OWL SLIDER -->
@@ -27,9 +23,6 @@
 
 <!-- TEXTAREA AUTOSIZE -->
 <script type="text/javascript" src="{{ URL::asset('js/jquery.textarea_autosize.min.js') }}"></script>
-
-<!-- FIREBASE DOM FUNCTIONALITES -->
-<script src="/js/lang.js"></script>
 
 @hasSection('headeranimation')
 	@yield('headeranimation')

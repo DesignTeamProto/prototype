@@ -1,6 +1,6 @@
 <?php
 
-namespace Shaelyn;
+namespace DesignTeam;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;

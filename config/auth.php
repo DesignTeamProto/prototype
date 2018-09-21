@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Shaelyn\User::class,
+            'model' => DesignTeam\User::class,
         ],
 
         // 'users' => [

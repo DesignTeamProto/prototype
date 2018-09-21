@@ -1,6 +1,6 @@
 <?php
 
-namespace Shaelyn\Providers;
+namespace DesignTeam\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Shaelyn\Model' => 'Shaelyn\Policies\ModelPolicy',
+        'DesignTeam\Model' => 'DesignTeam\Policies\ModelPolicy',
     ];
 
     /**

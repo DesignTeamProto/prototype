@@ -1,9 +1,9 @@
 <?php
 
-namespace Shaelyn\Http\Controllers\Auth;
+namespace DesignTeam\Http\Controllers\Auth;
 
-use Shaelyn\User;
-use Shaelyn\Http\Controllers\Controller;
+use DesignTeam\User;
+use DesignTeam\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -58,7 +58,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \Shaelyn\User
+     * @return \DesignTeam\User
      */
     protected function create(array $data)
     {

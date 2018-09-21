@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Shaelyn\Providers\AppServiceProvider::class,
-        Shaelyn\Providers\AuthServiceProvider::class,
-        // Shaelyn\Providers\BroadcastServiceProvider::class,
-        Shaelyn\Providers\EventServiceProvider::class,
-        Shaelyn\Providers\RouteServiceProvider::class,
+        DesignTeam\Providers\AppServiceProvider::class,
+        DesignTeam\Providers\AuthServiceProvider::class,
+        // DesignTeam\Providers\BroadcastServiceProvider::class,
+        DesignTeam\Providers\EventServiceProvider::class,
+        DesignTeam\Providers\RouteServiceProvider::class,
 
         Collective\Html\HtmlServiceProvider::class,
         Jenssegers\Agent\AgentServiceProvider::class,

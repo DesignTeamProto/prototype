@@ -1,6 +1,6 @@
 <?php
 
-namespace Shaelyn\Http\Middleware;
+namespace DesignTeam\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

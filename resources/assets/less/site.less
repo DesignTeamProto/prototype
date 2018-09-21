@@ -4,7 +4,6 @@
 /* RESET (do not edit the files below) */
 @import "core/reset/normalize.less";
 @import "core/reset/essentials.less";
-@import "core/reset/shaelyn.less";
 @import (reference) "core/reset/mixins.less";
 @import (reference) "core/reset/mixins-flex.less";
 
@@ -32,7 +31,7 @@
 
 /* CORE MODULE STYLING (do not edit the files below) */
 & when (@moduleYoutube  = true) { @import "core/modules/youtube.less"; }
-& when (@moduleSearch   = true) { @import "core/modules/zoeken.less"; }
+& when (@moduleSearch   = true) { @import "core/modules/search.less"; }
 & when (@moduleFlex     = true) { @import "core/modules/flex.less"; }
 & when (@moduleCookies  = true) { @import "core/modules/cookies.less"; }
 & when (@moduleMaps     = true) { @import "core/modules/googlemaps.less"; }
@@ -72,7 +71,7 @@
 
 & when (@moduleYoutube          = true) { @import "project/modules/youtube.less"; }
 & when (@moduleFlex             = true) { @import "project/modules/flex.less"; }
-& when (@moduleSearch           = true) { @import "project/modules/zoeken.less"; }
+& when (@moduleSearch           = true) { @import "project/modules/search.less"; }
 & when (@moduleCookies          = true) { @import "project/modules/cookies.less"; }
 & when (@moduleMaps             = true) { @import "project/modules/googlemaps.less"; }
 & when (@moduleForms            = true) { @import "project/components/forms.less"; }
@@ -80,10 +79,6 @@
 
 /* PLACE YOUR OWN CSS STYLING DOWN HERE WITH @IMPORTS */
 // Example: @import "project/components/customcomponent.less";
-@import "project/components/explanation.less";
-@import "project/components/contact.less";
-@import "project/components/typesoverview.less";
-@import "project/components/useritems.less";
 @import "project/components/search.less";
 @import "project/components/dialog.less";
 @import "project/components/spinners.less";

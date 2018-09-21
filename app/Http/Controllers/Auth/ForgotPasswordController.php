@@ -1,8 +1,8 @@
 <?php
 
-namespace Shaelyn\Http\Controllers\Auth;
+namespace DesignTeam\Http\Controllers\Auth;
 
-use Shaelyn\Http\Controllers\Controller;
+use DesignTeam\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

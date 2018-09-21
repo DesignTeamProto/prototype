@@ -3,17 +3,17 @@
 
         //Remove the input errors and empty all the input fields when the modal has been closed
         $('#modal-search-users').on('hidden.bs.modal', function () {
-        	$('#firebase-search-users-results .invite').removeClass('invite');
+        	$('#example-search-users-results .invite').removeClass('invite');
             $('#search_field_users').val("");
             $('#js-invite-user-search').show();
             $('#js-user-invite-confirmation').hide();
-            $('#firebase-search-users-results').empty();
+            $('#example-search-users-results').empty();
         });
 
         //Click on the agenda item
         $( "#modal-search-users" ).on('shown.bs.modal', function(e){
 			$('#search_field_users').focus();
-            $('#modal-search-users').find('.firebase-search-users').attr('data-type', 'allusers');
+            $('#modal-search-users').find('.example-search-users').attr('data-type', 'allusers');
             $('#js-user-invite-confirmation').hide();
             $('#js-invite-users').show();
             $('.js-modal-cancel').show();

@@ -26,8 +26,3 @@ Route::get('/homepage', function () {
 Route::get('/home', function () {
     return view('pages.home');
 });
-
-// DOWNLOAD
-Route::get('/download', function () {
-    return view('pages.download');
-});
