@@ -8,7 +8,6 @@
     </div>
 @stop
 
-
 @section('right')
     <div>
     	<span>RIGHT COLUMN</span>

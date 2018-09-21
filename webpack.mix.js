@@ -13,3 +13,5 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
 	.less('resources/assets/less/site.less', 'public/css');
+
+	 .sourceMaps();
