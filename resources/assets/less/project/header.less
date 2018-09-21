@@ -32,6 +32,7 @@
         .align-items(center);
         .transition;
         height: @headerHeight;
+        width: auto;
 
         @media @bp-Large {
             padding: 0 @spacing;
@@ -69,10 +70,15 @@
 .page-logo {
     height: @headerHeight;
     padding: @spacing 0;
+    margin: 0;
 
     @media @bp-MobileL {
         height: @responsiveHeaderHeight;
         padding: 0;
+    }
+
+    @media @navBreakPoint {
+        height: @responsiveHeaderHeight;
     }
 
     a {
