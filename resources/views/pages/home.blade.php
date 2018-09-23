@@ -5,6 +5,11 @@
 @section('content')
     <div class="example-wrapper">
     	<span>LETS BUILD!</span>
+
+    {{-- Include a widget example --}}
+	<!-- <div>
+    		@include('widgets.colleague.layout')
+    	</div> -->
     </div>
 @stop
 
